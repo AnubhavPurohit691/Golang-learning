@@ -14,5 +14,5 @@ func main() {
 	fmt.Println(wow)
 	fmt.Println(len(wow))
 
-	// this is used for fixed and memory optimation
+	// this is used for fixed and memory optimation and constant time access
 }
