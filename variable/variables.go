@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+
 	fmt.Println("helloworld")
 	var hello int
 	hello = 56
@@ -10,6 +11,7 @@ func main() {
 	anubhav := 78
 	fmt.Println(anubhav)
 	println(hello)
+	fmt.Printf("%v anubhav is ", anubhav)
 	// printf is used to print type of value printf(%T)%T is imp to print type of value
 
 	// sprintf is used to return formatted string and printf is used to print formattedstring
