@@ -13,6 +13,7 @@ func main() {
 	// default:
 	// 	fmt.Println("it")
 	// }
+
 	whoamI := func(i interface{}) {
 		switch t := i.(type) {
 		case int:
@@ -25,5 +26,6 @@ func main() {
 			fmt.Println("default", t)
 		}
 	}
+
 	whoamI("hello")
 }

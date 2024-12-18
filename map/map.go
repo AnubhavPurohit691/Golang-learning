@@ -7,6 +7,7 @@ import (
 
 // map are like obj , dict, hash
 func main() {
+
 	m := make(map[string]string) //key value pair
 
 	m["name"] = "anubhav"
@@ -16,7 +17,6 @@ func main() {
 	fmt.Println(len(m["name"]))
 	// delete(m, "name")
 	// clear(m)
-
 	mapf := map[string]int{"age1": 40, "age2": 30}
 	map3 := map[string]int{"age1": 40, "age2": 30}
 
